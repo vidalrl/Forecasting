@@ -1,5 +1,8 @@
-# Vision general del proyecto
-En este proyecto se estima el numero de ventas de un producto a 8 dias de 
+## Vision general del proyecto
+- Se estima el numero de ventas de 20 productos de 8 dias futuros 
+- informacion tomada de una cadena de supermercados, especificamente de dos locales
 
-### Datos
-el p
+##¿Que se puede lograr con estos datos?
+- reduccion de costes de almacen
+- reduccion de costes de capital
+- reducir roturas de stock
