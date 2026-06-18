@@ -20,3 +20,5 @@ Acciones:
 - Modelizar a nivel tienda producto
 - Crear una variable que capture el efecto de la demanda intermitente
 - Utilizar algoritmos basados en árboles y rápidos: XGBoost o lightGBM
+
+![Tendencias de venta por producto](https://github.com/vidalrl/Forecasting/blob/main/images/descargar.png)
