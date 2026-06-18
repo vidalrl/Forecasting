@@ -7,6 +7,9 @@
 - reduccion de costes de capital
 - reducir roturas de stock
 
+## Limpieza de datos
+La información venia en tres tablas diferentes, se transforman, se unen y limpian para poder trabajar en ellas
+
 ## EDA
 
 Insights
