@@ -25,3 +25,14 @@ Acciones:
 - Utilizar algoritmos basados en árboles y rápidos: XGBoost o lightGBM
 
 ![Tendencias de venta por producto](https://github.com/vidalrl/Forecasting/blob/main/images/descargar.png)
+
+
+## Transformacion de datos
+
+-Se crea la variable demanda intermitente con lag de un dia
+no tenemos manera de saber si es 0 ventas o una rotura de stock 
+-se crea la variable ventas con lag de 15 dias
+-se crea la variable sell_price con lag de 7 dias
+-Se aplica la transformacion correspondiente a las variables numericas y categoricas utilizando OHE y target enconding
+
+
