@@ -29,10 +29,20 @@ Acciones:
 
 ## Transformacion de datos
 
--Se crea la variable demanda intermitente con lag de un dia
-no tenemos manera de saber si es 0 ventas o una rotura de stock 
--se crea la variable ventas con lag de 15 dias
--se crea la variable sell_price con lag de 7 dias
--Se aplica la transformacion correspondiente a las variables numericas y categoricas utilizando OHE y target enconding
+- Se crea la variable demanda intermitente con lag de un dia no tenemos manera de saber si es 0 ventas o una rotura de stock 
+- Se crea la variable ventas con lag de 15 dias
+- Se crea la variable sell_price con lag de 7 dias
+- Se aplica la transformacion correspondiente a las variables numericas y categoricas utilizando OHE y target enconding
+
+## Preseleccion de variables
+
+Se Preseleccionan las variables generales que se muestran predictivas, para reducir el el numero de variables que nuestro algoritmo seleccionara se utilizan los métodos Mutual information,, recursive feature elimination y permutation importance, eligiendo  al final, mutual information al notar una distribución un  poco mas equitativa entre las variables
+
+Se selecciona las variables por cada producto relacion tienda-producto
+ ![Variables ](https://github.com/vidalrl/Forecasting/blob/main/images/preseleccion%20de%20variables.png)
+
+Construccion del modelo
+Se realiza un pruebas con los modelos xgboost y lightgbm eligiendo al final lightgbm por la rapidez del modelo, se escoge como metrica de optimizacion MAE  con un valor de 5.75
+
 
 
