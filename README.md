@@ -41,7 +41,7 @@ Se Preseleccionan las variables generales que se muestran predictivas, para redu
 Se selecciona las variables por cada producto relacion tienda-producto
  ![Variables ](https://github.com/vidalrl/Forecasting/blob/main/images/preseleccion%20de%20variables.png)
 
-Construccion del modelo
+## Construccion del modelo
 Se realiza un pruebas con los modelos xgboost y lightgbm eligiendo al final lightgbm por la rapidez del modelo, se escoge como metrica de optimizacion MAE  con un valor de 5.75
 
 
